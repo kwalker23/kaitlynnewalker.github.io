@@ -2,13 +2,88 @@
 <html>
   <head>
     <title>
-    <b>Kaitlynne's Public Website</b>
+    CBAD 393 Section 3 HTML Exercises
     </title>
+    <style>
+      body {
+            padding:20px 0 30px;
+            font:14px/1.5 Arial, sans-serif;
+            text-align:left;
+            color:#333;
+            background:#FAF0D9;
+        }
+
+        a {
+            font-weight:bold;
+            color:#346AA8;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            text-decoration:none;
+        }
+
+        .container {
+            position:relative;
+            z-index:1;
+            width:600px;
+            padding:20px;
+            margin:0 auto;
+            background:#FAF0D9;
+        }
+
+        .container:after {
+            content:"";
+            display:block;
+            clear:both;
+            visibility:hidden;
+            height:0;
+            font-size:0;
+        }
+
+        /* Shared styles */
+
+        .drop-shadow {
+            position:relative;
+            /*float:left;*/
+            width:40%;
+            padding:1em;
+            margin:2em 10px 4em;
+            background:#fff;
+            -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        }
+
+        .drop-shadow:before,
+        .drop-shadow:after {
+            content:"";
+            position:absolute;
+            z-index:-2;
+        }
+
+        .drop-shadow p {
+            font-size:16px;
+            font-weight:bold;
+        }
+
+        /* Raised shadow - no pseudo-elements needed */
+
+        .raised {
+            -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        }
+    </style>
   </head>
   
   <body>
-  <h1>Welcome to my site!</h1>
+  <h1>Welcome to CBAD 393 Section 3 HTML, CSS & Markdown class exercises</h1>
   
- 
+  <p>Exercises 1-4 were covered in <a href="http://MikeSchroll.github.io/class12.html">Class 12</a></p>
+  <p>After completing exercises 1-4, but prior to starting exercise 5 you will need to <a href="http://MikeSchroll.github.io/rename_and_submit.html">rename and submit</a> your work.</p>
+  <p>Exercises 5+ can be found in <a href="http://MikeSchroll.github.io/class13.html">Class 13</a></p>
+  
   </body>
 </html>
